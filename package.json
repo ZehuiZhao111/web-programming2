@@ -1,0 +1,23 @@
+{
+  "name": "lecture_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "fetch": "^1.1.0",
+    "handlebars": "^4.7.3",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2",
+    "redis-sorted-set": "^2.0.0",
+    "uuid": "^3.3.2"
+  }
+}

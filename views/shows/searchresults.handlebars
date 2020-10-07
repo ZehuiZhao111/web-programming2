@@ -1,0 +1,9 @@
+<section>
+  <h1>SearchResults</h1>
+  {{#each shows}}
+    <article class="post"> 
+      <h2><a href="show/{{show.id}}">{{show.name}}</a></h2> 
+    </article>
+  {{/each}}
+  <a href="/shows">Back to All Shows</a>
+</section>

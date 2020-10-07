@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+    <title>My Site</title>
+    <link rel="stylesheet" href="/pulic/main.css">
+    
+</head>
+<body>
+    <header>
+        <h1>TV Maze Shows</h1>
+        <form action="/shows/search" method="POST">
+            <input type="text" name = "searchTerm" id="searchField" placeholder="Search a TV show..."/>
+            <button type="submit">Search</button>
+        </form>
+        <a href="/shows/popularsearches">Most popular search term</a> 
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+</body>
+</html>
